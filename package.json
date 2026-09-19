@@ -1,0 +1,8 @@
+{
+  "name": "edtech-sms-suppression-service",
+  "private": true,
+  "type": "module",
+  "scripts": {"demo": "tsx src/main.ts", "test": "tsx test/suppression.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.0", "@types/node": "^22.0.0"}
+}
